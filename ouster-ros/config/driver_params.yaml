@@ -49,13 +49,13 @@ ouster/os_driver:
     # sensor_frame[optional]: name to use when referring to the sensor frame.
     sensor_frame: os_sensor
     # lidar_frame[optional]: name to use when referring to the lidar frame.
-    lidar_frame: os_lidar
+    lidar_frame: sensorrig_frame
     # imu_frame[optional]: name to use when referring to the imu frame.
     imu_frame: os_imu
     # point_cloud_frame[optional]: which frame of reference to use when
     # generating PointCloud2 or LaserScan messages, select between the values of
     # lidar_frame and sensor_frame.
-    point_cloud_frame: os_lidar 
+    point_cloud_frame: sensorrig_frame 
     # proc_mask[optional]: use any combination of the 4 flags IMG, PCL, IMU and
     # SCAN to enable or disable their respective messages.
     proc_mask: IMG|PCL|IMU|SCAN
